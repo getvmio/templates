@@ -1,0 +1,12 @@
+name: Fedora 40
+alias: fedora-40
+icon: https://getvm-files.oss-us-west-1.aliyuncs.com/static/fedora-logo.png
+tags:
+  - Linux OS
+desc: |
+  Fedora 40 is the latest release of the Fedora Linux distribution, known for its cutting-edge features and strong commitment to open source principles. Developed and maintained by the Fedora Project, which is sponsored by Red Hat, Fedora 40 continues the tradition of delivering a robust, versatile, and user-friendly operating system suitable for a wide range of applications, from desktop computing to server deployments.
+container:
+  image: fedora:40
+  source: https://hub.docker.com/_/fedora
+  shell: bash
+  entrypoint: tail -f /dev/null
